@@ -1,3 +1,60 @@
+
+# README Template
+
+Your [design product spec](https://hackmd.io/SR5ovxoOTQ6cCrvQ33qnGw?edit) (described in that link) will look like the following in your README:
+
+## 1. User Stories (Required and Optional)
+
+**Required Must-have Stories**
+
+ * User can create a new account
+ * User can log-in
+ * A planner that users can enter in tasks into
+ * Can check their progress
+ * List of tasks 
+ * Planner arranges tasks in the best order based on  user behavior
+ 
+**Optional Nice-to-have Stories**
+* Calender where they can view their tasks
+* App suggests relaxing music and other stress-relieving tips during breaks between tasks
+* Calendar syncs to pre-existing platforms
+* User can also order tasks in the order they prefer to override app suggestion 
+
+## 2. Screen Archetypes
+
+  * Login: 
+     * User can login
+ * Register - user signs up or logs into their account
+     * User can register a new account
+ * Creation 
+     * User can create a new task and add it to the planner
+ * Stream 
+     * User can scroll through tasks to see what needs to be done
+
+
+## 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+ * Home/Stream
+ * Create task
+ * View stress-relieving tips/music
+
+**Flow Navigation** (Screen to Screen)
+
+ * Login Screen
+    => Home
+ * Registration Screen
+    => Home
+ * Home/Stream Screen
+    => Details of each task when task is clicked on 
+    => or if an optional story is included show a calender view
+ * Creation Screen
+     => Home screen once task is created
+     => In the actual wireframe, you will need multiple screens to represent the creation process to add details about tasks, calender etc.
+ * Stress-relief Screen
+     => None
+
+
 ### StressAway
 ## Planner App 
 * **Category:** Tools
